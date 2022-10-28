@@ -1,0 +1,17 @@
+I'm totally stuck on this one code we need to write!!
+It's asking me to: Write a program which the user is asked repeatedly to input integers from 1 to 5. 
+The program should inform the user when they enter an integer that puts the sum of the input integers over 21.
+In addition to printing the message "Over 21", the computer should print the sum and the last integer entered.
+
+I so far wrote this but i don't think i'm on the right track!
+
+number = range(1, 6) # Get a number between [1 and 6). 
+guesses = 0  
+message = ""
+while True: 
+  guess = int(input("\nGuess my number between 1 and 6: "))
+  guesses += 1
+  if guess == 21:
+    break
+    
+my output just asks me to input a number over and over again...
